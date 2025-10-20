@@ -46,6 +46,11 @@ Here’s a decision tree that shows how the calculator works:
 
 ![](Image_folder/image.png)
 
+## How to test it!
+
+1. You have to install pytest by running this in your terminal ```pip install pytest```
+2. Next you type ```pytest``` in the terminal and the tests will run
+
 # 🤷 Why?
 
 Because boring calculators are everywhere.

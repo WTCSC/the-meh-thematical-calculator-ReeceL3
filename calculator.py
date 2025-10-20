@@ -16,7 +16,7 @@ def subtract(a, b):
 
 def multiply(a, b):
     print("Do you really need to multiply? Fine, heres your product")
-    return a * b
+    return round (a * b, 2)
 
 def divide(a, b):
     if b == 0:
