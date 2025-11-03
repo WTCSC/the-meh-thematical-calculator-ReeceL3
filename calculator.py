@@ -5,7 +5,7 @@ sleep(1)
 print("I suppose I can help you with some basic operations.")
 sleep(1)
 
-
+#functions for the program
 def add(a, b):
     print("Heres your sum or whatever")
     return a + b
@@ -25,7 +25,7 @@ def divide(a, b):
     print("Heres your answer not that it matters anyways or anything")
     return a / b
 
-
+#choices for the functions
 def main():
     while True:
         print("\nWhat do you want now?")
@@ -46,7 +46,7 @@ def main():
         if choice == "5":
             print("Goodbye. I need a nap anyway.")
             break
-
+            #if there an idiot and don't put the right option
         if choice not in ["1", "2", "3", "4"]:
             print("That’s not even a real option. Try again.")
             sleep(1)
@@ -59,7 +59,7 @@ def main():
         except ValueError:
             print("Nope use numbers don't type them out and make my job harder than it needs to be.")
             continue
-
+            #eqautions
         if choice == "1":
             print(add(a, b))
         elif choice == "2":
