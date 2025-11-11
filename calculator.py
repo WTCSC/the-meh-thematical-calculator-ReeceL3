@@ -1,5 +1,5 @@
 from time import sleep
-
+#introduction
 print("Welcome to my math calculator I guess...")
 sleep(1)
 print("I suppose I can help you with some basic operations.")
@@ -9,15 +9,15 @@ sleep(1)
 def add(a, b):
     print("Heres your sum or whatever")
     return a + b
-
+#subtraction
 def subtract(a, b):
     print("Yeah subtraction is boring heres your answer")
     return a - b
-
+#multiplication
 def multiply(a, b):
     print("Do you really need to multiply? Fine, heres your product")
     return round (a * b, 2)
-
+#divison
 def divide(a, b):
     if b == 0:
         print("Seriously? Division by zero are you really that lame?")
@@ -52,7 +52,7 @@ def main():
             sleep(1)
             continue
             
-
+            # Asks for numbers
         try:
             a = float(input("Enter the first number: "))
             b = float(input("Enter the second number: "))
